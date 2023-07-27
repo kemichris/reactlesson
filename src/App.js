@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+// import Hello from './components/Hello';
+// import Message from './components/Message';
+// import Profile from './components/Profile';
+import Resume from './components/Resume';
+// import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Resume name= "kemi"/>       
+
+      {/* <Message messagecode="10" messagecontent="This is a message from props"/> */}
+      {/* <Profile name="Kemi" lastname="chris">
+      </Profile> */}
     </div>
   );
 }
 
 export default App;
+
+// the child props
+{/* <h3>This is the profile of a person</h3> */}
